@@ -60,7 +60,8 @@ so we can't use it in some brwoser that don't support it also
 # *-* Use for the File System module:
 ## Read files :-
 
-``` fs.readFile('',function(err, data) {
+``` 
+fs.readFile('',function(err, data) {
 if (err){
 }
 else(err){
