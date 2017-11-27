@@ -147,6 +147,12 @@ There’s really only two rules for defining an error-first callback:
 - The second argument of the callback is reserved for any successful response data. If no error occurred, err will be set to null and any successful data will be returned in the second argument.
 Really… that’s it. 
 
+``` fs.readFile('/foo.txt', function(err, data) {
+  // TODO: Error Handling Still Needed!
+  console.log(data);
+});
+```
+
 ## Why should you avoid using throw in callbacks?
 becouse it makes thes server crashes becouse the error will turn to an exeption 
 
