@@ -113,7 +113,9 @@ fs.rename('','myrenamedfile.txt',function(err) {
 ```
 
 
-
+# Path :-
+The path module provides utilities for working with file and directory paths. It can be accessed using:
+const path = require('path');
 
 
 
