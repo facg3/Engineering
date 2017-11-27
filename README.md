@@ -123,7 +123,7 @@ const path = require('path');
 
 **********************************
 
-### Asyncronous functions
+## Asyncronous functions
 
 
 Javascript at its core is actually synchronous, which basically means that it can do one thing at a time. 
@@ -137,7 +137,7 @@ These enabled browsers to make requests to the server without reloading the page
 
 Node.js relies on asynchronous code to stay fast, so having a dependable callback pattern is crucial. Without one, developers would be stuck maintaining different signatures and styles between each and every module. The error-first pattern was introduced into Node core to solve this very problem, and has since spread to become today’s standard. 
 
-## DEFINING AN ERROR-FIRST CALLBACK
+# DEFINING AN ERROR-FIRST CALLBACK
 
 There’s really only two rules for defining an error-first callback:
 
@@ -145,10 +145,10 @@ There’s really only two rules for defining an error-first callback:
 - The second argument of the callback is reserved for any successful response data. If no error occurred, err will be set to null and any successful data will be returned in the second argument.
 Really… that’s it. 
 
-### Why should you avoid using throw in callbacks?
+## Why should you avoid using throw in callbacks?
 becouse it makes thes server crashes becouse the error will turn to an exeption 
 
-### When might you use the syncronous form of a function instead?
+## When might you use the syncronous form of a function instead?
 One of the few cases in which a synchronous request does not usually block execution is the use of XMLHttpRequest within a Worker.
 The Worker interface of the Web Workers API represents a background task that can be easily created and can send messages back to its creator
 
