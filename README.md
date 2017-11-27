@@ -9,7 +9,7 @@ if (err){
 else(err){
 }
 
-#Create files:-
+# Create files:-
 The File System module has methods for creating new files:
 
 **fs.appendFile():-
@@ -30,7 +30,7 @@ fs.writeFile('', 'Hello content!', function (err) {
 });
 
 
-#Update files:-
+# Update files:-
 
 **fs.appendFile()
 fs.appendFile('', ' This is my text.', function (err) {
@@ -44,14 +44,14 @@ fs.writeFile('', 'This is my text', function (err) {
 });
 
 
-#Delete files:-
+# Delete files:-
 **fs.unlink()
 fs.unlink('mynewfile2.txt',function(err) {
 if(err)throwerr;
 }
 
 
-#Rename files:-
+# Rename files:-
 **fs.rename()
 fs.rename('','myrenamedfile.txt',function(err) {
   if (err) throw err;
