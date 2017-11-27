@@ -1,4 +1,6 @@
-# module
+# Engineering 
+
+### module
 
 It's normal when our code is short or it's not too long but when we have a bunch of code then the code become unreadable for any one or it is more complex so the best way to code sperate code in multiple file and i connect the file with each other by The keyword module.exports is used in Node.js that exports all function in the file to each file I want to  use it like :
 ### print.js file
@@ -52,7 +54,7 @@ but chrome now support for es6
 so we can't use it in some brwoser that don't support it also
 ### In the end ,I suggest to  use module in backend not front end that  beacuse some browser doesn't support node.js lib
 
-# Engineering *-*  include the File System module,use the require() method:
+*-*  include the File System module,use the require() method:
 ``` var fs = require('fs');```
 
 # *-* Use for the File System module:
@@ -63,7 +65,7 @@ if (err){
 else(err){
 }
 ```
-# Create files:-
+## Create files:-
 The File System module has methods for creating new files:
 
 ``` fs.appendFile():-
@@ -115,7 +117,9 @@ fs.rename('','myrenamedfile.txt',function(err) {
 
 # Path :-
 The path module provides utilities for working with file and directory paths. It can be accessed using:
-const path = require('path');
+```
+const path = require('path'); 
+```
 
 **********************************
 
