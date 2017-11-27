@@ -128,6 +128,8 @@ const path = require('path');
 
 Javascript at its core is actually synchronous, which basically means that it can do one thing at a time. 
 
+In order to perform slower tasks (e.g. network requests) without blocking the browser, Javascript has certain functionality (eg setTimeout and callbacks) that are automatically diverted out of the runtime to service workers, and are then added to the task queue.
+
 In asynchronous programs, you can have two lines of code (L1 followed by L2), where L1 schedules some task to be run in the future, but L2 runs before that task completes.
 
 These enabled browsers to make requests to the server without reloading the page, in turn receiving the data back at a later time and using it to update the web page.
