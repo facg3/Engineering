@@ -54,11 +54,12 @@ but chrome now support for es6
 so we can't use it in some brwoser that don't support it also
 ### In the end ,I suggest to  use module in backend not front end that  beacuse some browser doesn't support node.js lib
 
-*-*  include the File System module,use the require() method:
+### *-*  include the File System module,use the require() method:
 ``` var fs = require('fs');```
 
 # *-* Use for the File System module:
 ## Read files :-
+
 ``` fs.readFile('',function(err, data) {
 if (err){
 }
